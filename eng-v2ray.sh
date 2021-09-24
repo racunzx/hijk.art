@@ -149,7 +149,7 @@ statusText() {
             echo -e ${GREEN}Installed ${PLAIN} ${GREEN}V2ray is running${PLAIN}, ${RED}Nginx Not running${PLAIN}
             ;;
         5)
-            echo -e ${GREEN}Installed ${PLAIN} ${GREEN}V2ray is running, Nginx正在运行${PLAIN}
+            echo -e ${GREEN}Installed ${PLAIN} ${GREEN}V2ray is running, Nginx is running${PLAIN}
             ;;
         *)
             echo -e ${RED}Not Install ${PLAIN}
