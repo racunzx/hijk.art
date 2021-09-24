@@ -184,7 +184,7 @@ getVersion() {
     fi
 
     if [[ $? -ne 0 ]] || [[ $NEW_VER == "" ]]; then
-        colorEcho $RED " 检查V2ray版本信息失败，请检查网络"
+        colorEcho $RED " Failed to check V2ray version information, please check the network"
         return 3
     elif [[ $RETVAL -ne 0 ]];then
         return 2
